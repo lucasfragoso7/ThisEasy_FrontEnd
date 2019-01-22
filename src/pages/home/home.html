@@ -1,0 +1,27 @@
+
+<ion-header>
+  <ion-navbar >
+    <ion-title>
+      <img id="imgs" src="../assets/imgs/logo.jpeg" alt="icone">
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content id="body" padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Usuario:</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Senha:</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <button ion-button small (click)="sendInfoPage()">Cadastrar</button>
+    <button ion-button small (click)="sendIngredientePage()">Entrar</button>
+  </ion-list>
+</ion-content>
