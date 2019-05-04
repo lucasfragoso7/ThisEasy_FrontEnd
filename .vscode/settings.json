@@ -1,0 +1,6 @@
+{
+    "terminal.explorerKind": "external",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.splitCwd": "workspaceRoot",
+    "git.ignoreLimitWarning": true
+}

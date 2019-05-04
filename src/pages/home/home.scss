@@ -1,16 +1,34 @@
-page-home {
-    #imgs {
-        width: 010%;
-        margin-right: 70%;
-        display: block;
+page-home{
+    #form {
+      width:100%;
+      height:220px;
+      margin:0px 0px;
+      margin-top:50%;
+      line-height:50px;
+      
+
     }
+  ::placeholder{
+    color: aliceblue
+  }
 
-    #body {
-        margin-right: 2%;
-        margin-left: 2%;
-        margin-top: 40%;
-    }
+#color-box{
+  background-color: white;
+  border: auto;
+  border-radius: 10px;
+}
+.flex{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-box{
+  background-color: black;
+  color: white;
 
-
-
+  text-align: center;
+}
 }

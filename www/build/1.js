@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 275:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReceitaPageModule", function() { return ReceitaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListagemDeReceitasPageModule", function() { return ListagemDeReceitasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__receita__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listagem_de_receitas__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ReceitaPageModule = /** @class */ (function () {
-    function ReceitaPageModule() {
+var ListagemDeReceitasPageModule = /** @class */ (function () {
+    function ListagemDeReceitasPageModule() {
     }
-    ReceitaPageModule = __decorate([
+    ListagemDeReceitasPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__receita__["a" /* ReceitaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__listagem_de_receitas__["a" /* ListagemDeReceitasPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__receita__["a" /* ReceitaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listagem_de_receitas__["a" /* ListagemDeReceitasPage */]),
             ],
         })
-    ], ReceitaPageModule);
-    return ReceitaPageModule;
+    ], ListagemDeReceitasPageModule);
+    return ListagemDeReceitasPageModule;
 }());
 
-//# sourceMappingURL=receita.module.js.map
+//# sourceMappingURL=listagem-de-receitas.module.js.map
 
 /***/ })
 

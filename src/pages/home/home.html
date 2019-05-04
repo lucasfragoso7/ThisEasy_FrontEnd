@@ -1,27 +1,21 @@
+<div class="flex">
+  <ion-content padding>
 
-<ion-header>
-  <ion-navbar >
-    <ion-title>
-      <img id="imgs" src="../assets/imgs/logo.jpeg" alt="icone">
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+    <form id="form" [formGroup]="authForm" (ngSubmit)="submitForm()">
+      <div class="login-box">
+        <ion-item>
+          <ion-label>Usuario:</ion-label>
+          <ion-input type="text" formControlName="user"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Senha:</ion-label>
+          <ion-input type="text" formControlName="password"></ion-input>
+        </ion-item>
+      </div>
+      <button ion-button small type="submit" (click)="sendPageCadastrar()">Cadastrar</button>
+      <button ion-button small type="submit" (click)="sendPage()">Entrar</button>
 
-<ion-content id="body" padding>
-
-  <ion-list>
-
-    <ion-item>
-      <ion-label floating>Usuario:</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label floating>Senha:</ion-label>
-      <ion-input type="password"></ion-input>
-    </ion-item>
-
-    <button ion-button small (click)="sendInfoPage()">Cadastrar</button>
-    <button ion-button small (click)="sendIngredientePage()">Entrar</button>
-  </ion-list>
-</ion-content>
+    </form>
+    `
+  </ion-content>
+</div>

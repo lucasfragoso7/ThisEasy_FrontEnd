@@ -25674,14 +25674,83 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-page-home #imgs {
+#imgs {
   width: 010%;
   margin-right: 70%;
   display: block;
+  background-color: black;
+  border-radius: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
-page-home #body {
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 40%;
+.toolbar-background {
+  background-color: #f3efea;
+}
+
+.scroll-content {
+  background: #f3efea;
+}
+
+.card-header {
+  background-color: #f3efea;
+  color: black;
+}
+
+.button {
+  background-color: black;
+}
+
+.item {
+  background-color: white;
+}
+
+page-home #form {
+  width: 100%;
+  height: 220px;
+  margin: 0px 0px;
+  margin-top: 50%;
+  line-height: 50px;
+}
+
+page-home ::-webkit-input-placeholder {
+  color: aliceblue;
+}
+
+page-home ::-ms-input-placeholder {
+  color: aliceblue;
+}
+
+page-home ::placeholder {
+  color: aliceblue;
+}
+
+page-home #color-box {
+  background-color: white;
+  border: auto;
+  border-radius: 10px;
+}
+
+page-home .flex {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+page-home .login-box {
+  background-color: black;
+  color: white;
+  text-align: center;
 }

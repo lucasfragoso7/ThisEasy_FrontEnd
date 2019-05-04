@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 276:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubstitutosPageModule", function() { return SubstitutosPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReceitaPageModule", function() { return ReceitaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__substitutos__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__receita__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SubstitutosPageModule = /** @class */ (function () {
-    function SubstitutosPageModule() {
+var ReceitaPageModule = /** @class */ (function () {
+    function ReceitaPageModule() {
     }
-    SubstitutosPageModule = __decorate([
+    ReceitaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__substitutos__["a" /* SubstitutosPage */],
+                __WEBPACK_IMPORTED_MODULE_2__receita__["a" /* ReceitaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__substitutos__["a" /* SubstitutosPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__receita__["a" /* ReceitaPage */]),
             ],
         })
-    ], SubstitutosPageModule);
-    return SubstitutosPageModule;
+    ], ReceitaPageModule);
+    return ReceitaPageModule;
 }());
 
-//# sourceMappingURL=substitutos.module.js.map
+//# sourceMappingURL=receita.module.js.map
 
 /***/ })
 

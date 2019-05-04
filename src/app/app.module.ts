@@ -1,3 +1,4 @@
+import { Data } from './../providers/providers-data/providers-data';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -9,7 +10,10 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
 import { ReceitaPage } from '../pages/receita/receita';
 import { HomePage } from '../pages/home/home';
 import { IngredientesPage } from '../pages/ingredientes/ingredientes';
-import { ReceitasPage } from '../pages/listagemDeReceitas/receitas';
+import { ListagemDeReceitasPage } from '../pages/listagem-de-receitas/listagem-de-receitas';
+import { HttpProvider } from '../providers/Http/Http';
+import { HttpModule } from '@angular/http';
+import { IngredientesProvider } from '../pages/ingredientes/ingredientes-provider';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,12 @@ import { ReceitasPage } from '../pages/listagemDeReceitas/receitas';
     CadastroPage,
     HomePage,
     IngredientesPage,
-    ReceitasPage
+    ListagemDeReceitasPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -31,12 +36,15 @@ import { ReceitasPage } from '../pages/listagemDeReceitas/receitas';
     CadastroPage,
     HomePage,
     IngredientesPage,
-    ReceitasPage
+    ListagemDeReceitasPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    HttpProvider,
+    Data,
+    IngredientesProvider,
   ]
 })
 export class AppModule {}
